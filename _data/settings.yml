@@ -1,0 +1,66 @@
+#-------------------------------
+# Site Settings
+title: EZSecLab
+description: Computer (in)security made easy
+# You can add own logo. For example '/images/logo.png'.
+logo: /images/logo_green.png
+logo_dark: /images/logo_white.png
+
+
+#-------------------------------
+# Color Scheme Settings
+color_scheme:
+  default: dark # Default theme applied on the first visit (options: "light" or "dark")
+  toggle: true # Enable theme toggle
+
+# Enables or disables the theme toggle functionality:
+# - true: Users can switch between light and dark modes using a toggle button.
+#          The site will remember their choice for future visits.
+# - false: The theme will always use the default mode specified above,
+#          and the toggle button will not be displayed.
+
+
+#-------------------------------
+# Navigation Settings
+menu_settings:
+  menu_items:
+    - title: 'Home'
+      url: '/'
+    - title: 'Research'
+      url: '/research/'
+    - title: 'Trainings'
+      url: '/trainings/'
+    - title: 'About'
+      url: '/about/'
+
+
+#-------------------------------
+# Author Settings
+author:
+  author_name: Cedric Halbronn
+
+
+#-------------------------------
+# Hero Settings
+hero:
+  enable: true
+  hero_avatar: /images/me.png
+  hero_title: Welcome to EZSecLab
+  hero_description: |
+    Computer (in)security, specialised in vulnerability research and exploit development.
+  hero_image: /images/ezseclab.png
+
+
+#-------------------------------
+# Footer Settings
+footer_description: Computer (in)security made easy for vulnerability research and exploit development.
+
+
+#-------------------------------
+# Social Settings
+social:
+- {icon: "fa-brands fa-x-twitter", name: "Twitter", link: "https://x.com/saidelike"}
+- {icon: "fa-brands fa-mastodon", name: "Mastodon", link: "https://infosec.exchange/@saidelike"}
+
+# Example of adding a new link to the sidebar and footer - {icon: "fa-brands fa-youtube", name: "Youtube", link: https://youtube.com"}
+# Other icons can be found at https://fontawesome.com/icons
