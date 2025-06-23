@@ -137,7 +137,7 @@ The tools/VM we provide during this training are generic and can be reused after
 I love teaching vulnerability research and exploit development. The course I teach is all about improving your mental model.
 
 {: .note }
-Even the most experienced security researchers don't know everything
+Even the most experienced security researchers don't know everything.
 
 Making vulnerability research and exploit development accessible is key in our evolving and challenging world.
 
