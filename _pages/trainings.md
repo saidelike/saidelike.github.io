@@ -7,7 +7,7 @@ image: '/images/trainings.png'
 
 ***
 
-# Windows Kernel Exploitation
+# Windows Kernel Exploitation: Becoming an Advanced Exploit Developer
 
 <br>
 
@@ -17,11 +17,13 @@ This class is meant to show the approach an exploit developer or bug hunter shou
 
 This class focuses on exploiting CVE-2018-8611 on Windows 10 x64 1809 (RS5), a complex race condition that leads to a use-after-free on the non-paged kernel pool. The vulnerability is in the Kernel Transaction Manager (KTM) driver (`tm.sys`), a component that has not received much public scrutiny.
 
-Even though students will learn a lot about the KTM component, we focus on our approach for analyzing this component as a new kernel component that we had no prior knowledge about. The methodology can be reused for any other unknown kernel components a student may encounter in the future. We do not specifically focus on tricks or techniques for bypassing specific Windows versions mitigations, but rather on the thought process behind exploring functionality to find useful unmitigated code paths and also abusing the bug in ways that allow to build powerful primitives that would facilitate mitigation bypasses.
+Students will be able to put their new knowledge into practice by exploiting other vulnerabilities in KTM on Windows 11 x64 (CVE-2024-43570 and CVE-2024-43535).
+
+Even though students will learn a lot about the KTM component, we focus on our approach for analyzing this component as a new kernel component that we had no prior knowledge about. The methodology can be reused for any other unknown kernel components a student may encounter in the future. We do not specifically focus on tricks or techniques for bypassing specific Windows versions mitigations. Instead, we teach you the thought process behind exploring functionality to find your own techniques to abuse the bug in ways that allow to build powerful primitives that would facilitate mitigation bypasses. 
+
+> Give a (wo)man a mitigation bypass and you feed them for an exploit. Teach a (wo)man to find their own bypasses and you feed them for a lifetime.
 
 The tools/VM we provide during this training are generic and can be reused after the class to assist exploiting other Windows kernel vulnerabilities.
-
-Students will be able to put their new knowledge into practice by exploiting other vulnerabilities in KTM on Windows 11 x64 (CVE-2024-43570 and CVE-2024-43535).
 
 <br>
 
@@ -30,7 +32,7 @@ Students will be able to put their new knowledge into practice by exploiting oth
 * Setup an efficient Windows kernel debugging environment
 * Modern reverse engineering and binary patch diffing
 * How to approach exploiting a vulnerability on a previously unknown target
-* Step-by-step real-world Windows kernel exploit on Windows 10 1809 (RS5) x64
+* Step-by-step real-world Windows kernel exploitation
 
 <br>
 
@@ -46,16 +48,16 @@ Students will be able to put their new knowledge into practice by exploiting oth
 
 ### Who should attend
 
+* Want to become an exploit developer or bug hunter
+* Reverse engineers
 * Penetration testers
 * Red teamers
-* Reverse engineers
-* Want to become an exploit developer or bug hunter
 
 <br>
 
 ### Hardware/Software requirements
 
-* Base OS: Windows (recommended) or Linux
+* Base OS: Windows recommended
 * Hyper-V/VMware virtualisation software
 * At least 80GB of free disk space
 * At least 8GB of RAM
