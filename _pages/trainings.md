@@ -167,3 +167,7 @@ You will find online some of my trainings:
 # Why attend an in-person training?
 
 > There is enormous value in attending classes in person even if the full course is available online. The most important benefit is the ability to ask questions [...] and be able to learn the materials much faster.
+
+# Why focusing on a particular CVE?
+
+What matters is the methodology, not any particular vulnerability. CVE-2018-8611 might not be the latest vulnerability impacting Windows but it is a very informative vulnerability from a learning perspective. It is due to all the challenges we need to solve and all the thought processes involved in exploiting it. Also, we will see that there is not much difference between exploiting CVE-2018-8611 on Windows 10 and exploiting CVE-2024-43570 or CVE-2024-43535 on Windows 11.
